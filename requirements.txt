@@ -1,0 +1,26 @@
+# Demo 1: NEU-DET steel-surface defect detection + YOLOv8n
+# Python 3.12, CPU-only. Install torch from a CPU wheel first:
+#   pip install --index-url https://pypi.tuna.tsinghua.edu.cn/simple \
+#       --find-links https://mirrors.aliyun.com/pytorch-wheels/cpu/ "torch==2.6.0+cpu"
+# (download.pytorch.org is blocked in this environment; use the mirror.)
+torch==2.6.0+cpu
+torchvision==0.21.0
+ultralytics==8.4.216
+numpy==2.5.5
+opencv-python-headless==5.1.0.95
+pillow==13.0.0
+onnx==1.23.2
+onnxruntime==1.32.0
+streamlit==1.67.0
+huggingface_hub==2.4.0
+hf_transfer
+pyyaml
+requests
+scipy
+matplotlib
+pandas
+psutil
+py-cpuinfo
+tqdm
+seaborn
+ultralytics-thop

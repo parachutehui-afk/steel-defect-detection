@@ -1,0 +1,13 @@
+# NEU-DET (KeenForgeAI/NEU-DET-corrected), 1797 images, 200x200 grayscale
+path: /home/hatch/workspace/goals/industrial-computer-vision-freelancing/demo-1-steel-defect/data/yolo
+train: train/images
+val: val/images
+test: test/images
+
+names:
+  0: crazing
+  1: inclusion
+  2: patches
+  3: pitted_surface
+  4: rolled-in_scale
+  5: scratches
